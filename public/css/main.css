@@ -1,0 +1,640 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html body {
+    overflow-x: hidden;
+}
+
+.bg-image {
+    background-size: cover;
+    background-color: rgba(198, 108, 73, 0.30);
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 768px;
+
+}
+
+#header {
+    background-image: url(/Images/bg.jpg);
+    background-size: cover;
+    background-color: rgba(198, 108, 73, 0.30);
+    background-blend-mode: overlay;
+    max-width: 100%;
+    height: 768px;
+    position: relative;
+}
+
+
+
+.navbar-brand {
+    position: absolute;
+    top: 50px;
+    left: 5%;
+    width: 100%;
+}
+
+.main-text {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 40%;
+    height: 150px;
+}
+
+.nav-list {
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    font-size: larger;
+    position: absolute;
+    top: 7%;
+    right: 10%;
+
+}
+
+.nav-list li:hover {
+    cursor: pointer;
+    color: rgb(212, 75, 75);
+}
+
+#nameMainContent {
+    color: #FFF;
+
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-about {
+
+    margin-bottom: 76px;
+    margin: 93px auto;
+    text-align: center;
+}
+
+.text-left {
+    color: var(--Gray-1, #333);
+    text-align: justify;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+#skillsblok {
+    background-color: #FFFAF2;
+
+}
+
+.text-skills {
+    display: inline-block;
+    margin-top: 93px;
+    margin-bottom: 86px;
+}
+
+.sometext {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: normal;
+}
+
+#statisticPanel {
+    margin-top: 208px;
+    margin-left: 100px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.progress {
+    margin-bottom: 16px;
+
+}
+
+.skill-bar {
+    margin-top: 60px;
+}
+
+#proffName {
+    margin: 0;
+}
+
+
+
+.portfolio-h2 {
+    margin-top: 93px;
+    color: var(--Gray-1, #333);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ux-h4 {
+    margin-top: 86px;
+    color: var(--Gray-1, #333);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px
+}
+
+#imageBlok {
+    margin-top: 274px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#twistimgblok2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 48%;
+    height: 100%;
+
+    border: 2px solid red;
+}
+
+
+#twistimgblok1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    width: 48%;
+    height: 100%;
+
+    border: 2px solid green;
+}
+
+
+.paragraf-text {
+    color: var(--Gray-1, #333);
+    text-align: justify;
+    margin-top: 48px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-name {
+    color: var(--Gray-1, #333);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px
+}
+
+
+.footer {
+    margin-top: 300px;
+    background-color: #FFFAF2;
+
+}
+
+#footerblok2 {
+    margin-top: 173px;
+}
+
+#footerblok3 {
+    margin-top: 173px;
+}
+
+#footerblok1 {
+    margin-top: 96px;
+}
+
+.foot-h4 {
+    margin-bottom: 51px;
+    color: var(--Gray-1, #333);
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#skillsbar {
+    display: flex;
+    flex-direction: column;
+}
+
+#skillprogres {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+
+
+.nav-link {
+    color: white;
+
+
+}
+
+.foto1,
+.foto2 {
+    width: 100%;
+    height: 40%;
+
+}
+
+.foto3 {
+    height: 40%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.foto4 {
+    height: 40%;
+    object-fit: cover;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.burger {
+    display: none;
+}
+
+.open {
+    display: flex !important;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+
+    .nav {
+        display: none;
+        position: fixed;
+
+        width: 30%;
+        top: 0;
+        right: 0;
+        height: 100%;
+        background-color: #333;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 40px;
+    }
+
+    .burger {
+        display: flex;
+        position: absolute;
+        top: 17%;
+        right: 15%;
+        /* z-index: 30; */
+        width: 30px;
+        height: 18px;
+    }
+
+    .burger span {
+        height: 2px;
+        width: 100%;
+        transform: scale(1);
+        background-color: #FFF;
+    }
+
+    .burger::after,
+    .burger::before {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        background-color: #FFF;
+        transition: all 0.3s ease 0s;
+    }
+
+    .burger::before {
+        top: 8px;
+    }
+
+    .burger::after {
+        bottom: 0;
+    }
+
+    .burger.active span {
+        transform: scale(0);
+    }
+
+    .burger.active::after {
+        bottom: 50%;
+        transform: rotate(45deg) translate(0, 50%);
+    }
+
+    .burger.active::before {
+        top: 50%;
+        transform: rotate(-45deg) translate(0, -50%);
+    }
+
+
+
+
+    #header {
+        width: 100%;
+        height: 275px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #navbar {
+        position: absolute;
+        top: 25px;
+        left: 24px;
+    }
+
+
+    .text-left {
+        color: var(--Gray-1, #333);
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+
+    }
+
+
+
+
+    #nameMainContent {
+        margin: 50px auto 0;
+        color: #FFF;
+
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+
+        text-align: center;
+
+
+    }
+
+
+
+
+    .sometext {
+        color: #FFF;
+
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+
+
+    .navbar-brand img {
+        width: 10%;
+        position: absolute;
+        left: 5%;
+    }
+
+    .text-about {
+        display: flex;
+        justify-content: center;
+    }
+
+    #skillsblok {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    #mainfotoskills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #statisticPanel {
+        display: flex;
+        margin: 26px auto;
+        width: 309px;
+    }
+
+    #portfolio-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #portfolioText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        width: 100%;
+    }
+
+    .progress {
+        margin-bottom: 26px;
+    }
+
+    #mainProfile {
+        margin-bottom: 0;
+    }
+
+    .skill-bar {
+        margin-top: 0;
+    }
+
+    #skillprogres {
+        width: 60%;
+    }
+
+    #imageBlok {
+
+        width: 100%;
+        height: 50vh;
+        padding: 0;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    #twistimgblok1 {
+
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        justify-content: space-around;
+        height: 100%;
+
+        float: left;
+    }
+
+
+
+    #twistimgblok2 {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 45%;
+
+        justify-content: space-around;
+
+    }
+
+
+
+    #twistimgblok2 img {
+
+        margin: 0;
+    }
+
+    .foto3 {
+        display: block;
+
+        height: 50%;
+        margin-bottom: 30px;
+    }
+
+    .portfolio-h2 {
+        margin-top: 25px;
+    }
+
+    .paragraf-text {
+        margin-top: 15px;
+    }
+
+    .ux-h4 {
+        margin-top: 19px;
+    }
+
+
+
+
+
+    .foto2 {
+        width: 100%;
+        height: 45%;
+
+        border: 2px solid red;
+    }
+
+    .foto1 {
+        width: 100%;
+        height: 40%;
+
+        object-fit: cover;
+    }
+
+    .skill-bar {
+        margin-top: 31px;
+    }
+
+    #proffName {
+
+        color: var(--Gray-1, #333);
+
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .skill-name {
+        color: var(--Gray-1, #333);
+
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px;
+    }
+
+    .main-foto {
+        width: 224px;
+        height: 218px;
+    }
+
+
+    #footer {
+        width: 100%;
+        height: 30%;
+        position: relative;
+        margin-top: 100px;
+    }
+
+    .foot-p {
+        color: var(--Gray-1, #333);
+
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    #footerblok1,
+    #footerblok2 {
+        margin-top: 50px;
+    }
+
+    #footerblok3 {
+        position: absolute;
+        top: 50px;
+    }
+
+    .foot-h4 {
+        top: 10px;
+        left: 120px;
+        color: var(--Gray-1, #333);
+        position: absolute;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
